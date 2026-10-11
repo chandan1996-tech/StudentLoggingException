@@ -1,0 +1,121 @@
+2026-10-11T22:44:04.658+05:30  INFO 9649 --- [student-logging-exception] [main] c.e.s.StudentLoggingExceptionApplication : Starting StudentLoggingExceptionApplication using Java 21.0.5 with PID 9649 (/Users/chandu/Desktop/microservices-demo/student-logging-exception/target/classes started by chandu in /Users/chandu/Desktop/microservices-demo/student-logging-exception)
+2026-10-11T22:44:04.662+05:30  INFO 9649 --- [student-logging-exception] [main] c.e.s.StudentLoggingExceptionApplication : No active profile set, falling back to 1 default profile: "default"
+2026-10-11T22:44:05.230+05:30  INFO 9649 --- [student-logging-exception] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-11T22:44:05.300+05:30  INFO 9649 --- [student-logging-exception] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interface.
+2026-10-11T22:44:05.798+05:30  INFO 9649 --- [student-logging-exception] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-11T22:44:05.817+05:30  INFO 9649 --- [student-logging-exception] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-11T22:44:05.818+05:30  INFO 9649 --- [student-logging-exception] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-11T22:44:05.882+05:30  INFO 9649 --- [student-logging-exception] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1157 ms
+2026-10-11T22:44:06.062+05:30  INFO 9649 --- [student-logging-exception] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-11T22:44:06.143+05:30  INFO 9649 --- [student-logging-exception] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-10-11T22:44:06.567+05:30  INFO 9649 --- [student-logging-exception] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-11T22:44:06.608+05:30  INFO 9649 --- [student-logging-exception] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-11T22:44:06.932+05:30  INFO 9649 --- [student-logging-exception] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54bc3bcf
+2026-10-11T22:44:06.934+05:30  INFO 9649 --- [student-logging-exception] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-11T22:44:07.048+05:30  INFO 9649 --- [student-logging-exception] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/student_logging_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: student_logging_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-11T22:44:07.812+05:30  INFO 9649 --- [student-logging-exception] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-11T22:44:07.960+05:30  INFO 9649 --- [student-logging-exception] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-11T22:44:08.043+05:30  INFO 9649 --- [student-logging-exception] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-11T22:44:08.158+05:30  WARN 9649 --- [student-logging-exception] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-11T22:44:08.423+05:30  INFO 9649 --- [student-logging-exception] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-11T22:44:08.427+05:30  INFO 9649 --- [student-logging-exception] [main] c.e.s.StudentLoggingExceptionApplication : Started StudentLoggingExceptionApplication in 4.243 seconds (process running for 4.862)
+2026-10-11T23:17:45.877+05:30  WARN 9649 --- [student-logging-exception] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m8s731ms).
+2026-10-11T23:19:08.624+05:30  INFO 9649 --- [student-logging-exception] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-11T23:19:08.625+05:30  INFO 9649 --- [student-logging-exception] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-11T23:19:08.645+05:30  INFO 9649 --- [student-logging-exception] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2026-10-11T23:19:08.964+05:30  INFO 9649 --- [student-logging-exception] [http-nio-8080-exec-2] c.e.s.controller.StudentController       : Received request to create student
+2026-10-11T23:19:08.965+05:30  INFO 9649 --- [student-logging-exception] [http-nio-8080-exec-2] c.e.s.service.StudentService             : Creating student with email: rahul@example.com
+2026-10-11T23:19:09.131+05:30  INFO 9649 --- [student-logging-exception] [http-nio-8080-exec-2] c.e.s.service.StudentService             : Student created successfully with ID: 1
+2026-10-11T23:19:29.458+05:30  INFO 9649 --- [student-logging-exception] [http-nio-8080-exec-3] c.e.s.service.StudentService             : Total students found: 1
+2026-10-11T23:20:17.754+05:30  INFO 9649 --- [student-logging-exception] [http-nio-8080-exec-4] c.e.s.service.StudentService             : Student deleted successfully with ID: 1
+2026-10-11T23:20:31.398+05:30  WARN 9649 --- [student-logging-exception] [http-nio-8080-exec-5] c.e.s.service.StudentService             : Student not found with ID: 1
+2026-10-11T23:20:31.402+05:30  WARN 9649 --- [student-logging-exception] [http-nio-8080-exec-5] c.e.s.exception.GlobalExceptionHandler   : Student lookup failed: Student not found with ID: 1
+2026-10-11T23:31:27.680+05:30  INFO 9649 --- [student-logging-exception] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-11T23:31:29.736+05:30  INFO 9649 --- [student-logging-exception] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-11T23:31:29.762+05:30  INFO 9649 --- [student-logging-exception] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-11T23:31:29.796+05:30  INFO 9649 --- [student-logging-exception] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-11T23:31:29.824+05:30  INFO 9649 --- [student-logging-exception] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-10-11T23:33:11.050+05:30  INFO 15379 --- [student-logging-exception] [main] c.e.s.StudentLoggingExceptionApplication : Starting StudentLoggingExceptionApplication using Java 21.0.5 with PID 15379 (/Users/chandu/Desktop/microservices-demo/student-logging-exception/target/classes started by chandu in /Users/chandu/Desktop/microservices-demo/student-logging-exception)
+2026-10-11T23:33:11.053+05:30  INFO 15379 --- [student-logging-exception] [main] c.e.s.StudentLoggingExceptionApplication : No active profile set, falling back to 1 default profile: "default"
+2026-10-11T23:33:11.496+05:30  INFO 15379 --- [student-logging-exception] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-11T23:33:11.553+05:30  INFO 15379 --- [student-logging-exception] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interface.
+2026-10-11T23:33:11.967+05:30  INFO 15379 --- [student-logging-exception] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-10-11T23:33:11.984+05:30  INFO 15379 --- [student-logging-exception] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-11T23:33:11.985+05:30  INFO 15379 --- [student-logging-exception] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-10-11T23:33:12.038+05:30  INFO 15379 --- [student-logging-exception] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 935 ms
+2026-10-11T23:33:12.197+05:30  INFO 15379 --- [student-logging-exception] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-11T23:33:12.241+05:30  INFO 15379 --- [student-logging-exception] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-10-11T23:33:12.548+05:30  INFO 15379 --- [student-logging-exception] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-11T23:33:12.575+05:30  INFO 15379 --- [student-logging-exception] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-11T23:33:12.894+05:30  INFO 15379 --- [student-logging-exception] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@673a9db4
+2026-10-11T23:33:12.898+05:30  INFO 15379 --- [student-logging-exception] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-11T23:33:12.993+05:30  INFO 15379 --- [student-logging-exception] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/student_logging_db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: student_logging_db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-11T23:33:13.609+05:30  INFO 15379 --- [student-logging-exception] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-11T23:33:13.725+05:30  INFO 15379 --- [student-logging-exception] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-11T23:33:13.790+05:30  INFO 15379 --- [student-logging-exception] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-11T23:33:13.897+05:30  WARN 15379 --- [student-logging-exception] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-11T23:33:14.164+05:30  INFO 15379 --- [student-logging-exception] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-10-11T23:33:14.169+05:30  INFO 15379 --- [student-logging-exception] [main] c.e.s.StudentLoggingExceptionApplication : Started StudentLoggingExceptionApplication in 3.497 seconds (process running for 4.074)
+2026-10-11T23:40:22.423+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-11T23:40:22.426+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-11T23:40:22.443+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2026-10-11T23:40:23.087+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-1] c.e.s.service.StudentService             : Total students found: 0
+2026-10-11T23:40:23.144+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-2] c.e.s.service.StudentService             : Total students found: 0
+2026-10-11T23:40:23.171+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-3] c.e.s.service.StudentService             : Total students found: 0
+2026-10-11T23:40:23.185+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-4] c.e.s.service.StudentService             : Total students found: 0
+2026-10-11T23:40:23.219+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-5] c.e.s.service.StudentService             : Total students found: 0
+2026-10-11T23:40:23.237+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-6] c.e.s.service.StudentService             : Total students found: 0
+2026-10-11T23:40:23.261+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-7] c.e.s.service.StudentService             : Total students found: 0
+2026-10-11T23:40:23.275+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-8] c.e.s.service.StudentService             : Total students found: 0
+2026-10-11T23:40:23.364+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-9] c.e.s.service.StudentService             : Total students found: 0
+2026-10-11T23:40:23.385+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-10] c.e.s.service.StudentService             : Total students found: 0
+2026-10-11T23:40:23.511+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-1] c.e.s.service.StudentService             : Total students found: 0
+2026-10-11T23:40:23.526+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-2] c.e.s.service.StudentService             : Total students found: 0
+2026-10-11T23:40:23.689+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-3] c.e.s.service.StudentService             : Total students found: 0
+2026-10-11T23:40:23.710+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-4] c.e.s.service.StudentService             : Total students found: 0
+2026-10-11T23:40:24.490+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-5] c.e.s.service.StudentService             : Total students found: 0
+2026-10-11T23:40:24.526+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-6] c.e.s.service.StudentService             : Total students found: 0
+2026-10-11T23:40:24.627+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-7] c.e.s.service.StudentService             : Total students found: 0
+2026-10-11T23:40:24.640+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-8] c.e.s.service.StudentService             : Total students found: 0
+2026-10-11T23:40:24.767+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-9] c.e.s.service.StudentService             : Total students found: 0
+2026-10-11T23:40:24.788+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-9] c.e.s.service.StudentService             : Total students found: 0
+2026-10-11T23:40:24.916+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-1] c.e.s.service.StudentService             : Total students found: 0
+2026-10-11T23:40:24.926+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-2] c.e.s.service.StudentService             : Total students found: 0
+2026-10-11T23:40:25.105+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-3] c.e.s.service.StudentService             : Total students found: 0
+2026-10-11T23:40:25.113+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-3] c.e.s.service.StudentService             : Total students found: 0
+2026-10-11T23:40:25.256+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-5] c.e.s.service.StudentService             : Total students found: 0
+2026-10-11T23:40:25.265+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-6] c.e.s.service.StudentService             : Total students found: 0
+2026-10-11T23:40:34.260+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-8] c.e.s.controller.StudentController       : Received request to create student
+2026-10-11T23:40:34.261+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-8] c.e.s.service.StudentService             : Creating student with email: chandanchangu7596@gmail.com
+2026-10-11T23:40:34.338+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-8] c.e.s.service.StudentService             : Student created successfully with ID: 2
+2026-10-11T23:40:34.364+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-10] c.e.s.service.StudentService             : Total students found: 1
+2026-10-11T23:40:44.543+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-9] c.e.s.service.StudentService             : Total students found: 1
+2026-10-11T23:40:57.944+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-2] c.e.s.service.StudentService             : Student updated successfully with ID: 2
+2026-10-11T23:40:57.975+05:30  INFO 15379 --- [student-logging-exception] [http-nio-8080-exec-4] c.e.s.service.StudentService             : Total students found: 1
+2026-10-11T23:41:55.504+05:30  INFO 15379 --- [student-logging-exception] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-11T23:41:57.515+05:30  INFO 15379 --- [student-logging-exception] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-11T23:41:57.520+05:30  INFO 15379 --- [student-logging-exception] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-11T23:41:57.523+05:30  INFO 15379 --- [student-logging-exception] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-11T23:41:57.527+05:30  INFO 15379 --- [student-logging-exception] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
